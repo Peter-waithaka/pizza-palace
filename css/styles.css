@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  /*--- navigation bar ---*/
+  #spantext {
+    color: yellow;
+}
+
+.navi {
+    float: right;
+}
+
+.exc {
+    color: yellow;
+}
+
+#piza-palace{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+  /*--- landingpage ---*/
+  #home {
+      background-image: url("../images/p-bckg.jpg");
+      background-color: black; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      padding: 30px;
+  }
+  .overlay {
+    position: absolute;
+    height: 102%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(26, 17, 17, 0.6);
+    
+  }
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #6ab446;
+  }
+  .description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+  /* section2 */
+img{
+  height: 100%;
+}
