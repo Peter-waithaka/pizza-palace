@@ -30,11 +30,11 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       height: 600px;
-      padding: 30px;
+      padding:30px;
   }
   .overlay {
     position: absolute;
-    height: 102%;
+    height: 112%;
     width: 100%;
     left: 0;
     top: 0;
@@ -68,6 +68,7 @@ body {
     color:#000;
   }
   /* section2 */
-img{
-  height: 100%;
+.make{
+  width: 100%;
+  height: 60%;
 }
