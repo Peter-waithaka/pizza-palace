@@ -419,3 +419,4 @@ $(function () {
          $.scrollify.move('#sum-order');
      });
  });
+ 
