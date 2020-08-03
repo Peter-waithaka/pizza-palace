@@ -407,6 +407,9 @@ $(function () {
          $('.delivernot').hide(1000);
          $('.cdata-overlay').slideDown();
      });
+     $(".md").click(function(){
+         alert("your delivery will get to your location in a few");
+     })
  
  
      //Pick Up
