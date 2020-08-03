@@ -37,6 +37,7 @@
 </div>
 </section>   
 <div class="section2">
+    <h1 class="text-white floater text-uppercase text-center">order here</h1>
     
 <form class="col-sm-6 offset-sm-3 text-center">
   <label>Pick your pizza Flavour:</label>
@@ -52,9 +53,9 @@
   </select>
   <label>Chose your preferred Size:</label>
   <select class="custom-select custom-select-md mb-3" id="size" required>
-      <option value="regular">Regular</option>
-      <option value="medium">Medium</option>
-      <option value="large">Large</option>
+      <option value="regular">Regular @ 300</option>
+      <option value="medium">Medium @ 500</option>
+      <option value="large">Large @800</option>
   </select>
   <label for="crust">Choose your favorite Crust:</label>
   <select class="custom-select custom-select-md mb-3" id="crust" required>
@@ -78,13 +79,21 @@
       <option value=""></option>
       <option value="beef">Beef Peperoni @ sh. 170</option>
       <option value="chicken">Periperi Chicken @ sh. 170</option>
-  </select>
-  <label for="number">Number of Pizza's</label>
+     <label for="number">Number of Pizza's</label>
+
+  </select><br><br>
+
   <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+  <a href="#summary">
+    <button type="submit" class="btn btn-success checkout" id="checkout">
+        Checkout
+    </button>
+</a>
 
 
 </div>
 </div>
+
 
 
 

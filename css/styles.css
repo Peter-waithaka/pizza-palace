@@ -69,10 +69,14 @@ body {
   }
   /* section2 */
 
-  .section3{
+  .section2{
     padding: 100px;
     background-image: url(../images/menu.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#checkout {
+  border-radius: 20px;
+  margin-top: 20px;
 }
