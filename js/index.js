@@ -408,7 +408,7 @@ $(function () {
          $('.cdata-overlay').slideDown();
      });
      $(".md").click(function(){
-         alert("your delivery will get to your location in a few");
+         alert("your delivery will get to your location in a few.");
      })
  
  
